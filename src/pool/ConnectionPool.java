@@ -1,9 +1,9 @@
 package pool;
 
-import org.apache.commons.dbcp2.BasicDataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
+import org.apache.commons.dbcp2.BasicDataSource;
 
 /**
  * Database connection pool implementation using Apache Commons DBCP2. This class provides a singleton connection pool that manages database connections efficiently by reusing existing connections rather than creating new ones for each request.
